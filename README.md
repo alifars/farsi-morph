@@ -1,1 +1,1 @@
-Repository for Farsi morphological analyzer project.
+Main repository for Farsi lemmatizer project.
