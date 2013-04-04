@@ -1,0 +1,7 @@
+!!!subr.lexc!!!
+
+LEXICON Root
+
+subr ;
+
+LEXICON subr

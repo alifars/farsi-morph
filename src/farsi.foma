@@ -1,0 +1,73 @@
+### farsi.foma ###
+
+# Latin alphabet
+define Latin_Alphabet [ A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
+			a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z |
+			0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 ];
+
+define Latin_Ext [];
+
+define Latin_Punc [];
+
+# Farsi alphabet
+define Farsi_Alphabet [
+ﺍ | ﺏ | پ | ﺕ | ﺙ | ﺝ | چ |
+ﺡ | ﺥ | ﺩ | ﺫ | ﺭ | ﺯ | ژ |
+ﺱ | ﺵ | ﺹ | ﺽ | ﻁ | ﻅ |
+ﻉ | ﻍ | ﻑ | ﻕ | ک | گ |
+ﻝ | ﻡ | ﻥ | ﻭ | ه | ی ];
+
+define Farsi_Punc [];
+
+regex Latin_Alphabet | Latin_Ext | Latin_Punc | Farsi_Alphabet | Farsi_Punc;
+define characters;
+
+# Read in Lexica by POS tag
+read lexc lexica/adj.lexc
+define adj;
+read lexc lexica/adv.lexc
+define adv;
+read lexc lexica/conj.lexc
+define conj;
+read lexc lexica/iden.lexc
+define iden;
+read lexc lexica/n.lexc
+define n;
+read lexc lexica/part.lexc
+define part;
+read lexc lexica/posnum.lexc
+define posnum;
+read lexc lexica/postp.lexc
+define postp;
+read lexc lexica/pr.lexc
+define pr;
+read lexc lexica/prem.lexc
+define prem;
+read lexc lexica/prenum.lexc
+define prenum;
+read lexc lexica/prep.lexc
+define prep;
+read lexc lexica/psus.lexc
+define psus;
+read lexc lexica/punc.lexc
+define punc;
+read lexc lexica/subr.lexc
+define subr;
+read lexc lexica/v.lexc
+define v;
+
+# Combine lexica into single lexicon
+regex adj | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum | prep | psus | punc | subr | v;
+define Lexicon;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> 0;
+
+# Compose lexicon with rules and cleanup rule to build grammar
+define Grammar Lexicon           .o. 
+               Cleanup;
+regex Grammar;
+
+# Save into farsi.bin and exit
+save stack farsi.bin
+exit;

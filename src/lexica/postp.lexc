@@ -1,0 +1,7 @@
+!!!postp.lexc!!!
+
+LEXICON Root
+
+postp ;
+
+LEXICON postp

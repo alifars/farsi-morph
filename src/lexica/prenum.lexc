@@ -1,0 +1,7 @@
+!!!prenum.lexc!!!
+
+LEXICON Root
+
+prenum ;
+
+LEXICON prenum

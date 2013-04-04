@@ -1,0 +1,7 @@
+!!!posnum.lexc!!!
+
+LEXICON Root
+
+posnum ;
+
+LEXICON posnum

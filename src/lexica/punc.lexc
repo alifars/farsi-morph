@@ -1,0 +1,7 @@
+!!!punc.lexc!!!
+
+LEXICON Root
+
+punc ;
+
+LEXICON punc
