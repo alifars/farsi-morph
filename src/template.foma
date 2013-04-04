@@ -1,0 +1,18 @@
+### template.foma ###
+
+# Read in lexica
+read lexc lexica/n.lexc
+define n;
+
+# Combine lexica into single lexicon
+regex n;
+define Lexicon;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup "^" -> " "; !to replace morpheme boundaries with spaces
+#define Cleanup "^" -> 0; !to remove morpheme boundaries
+
+# Compose lexicon with rules and cleanup rule to build grammar
+define Grammar Lexicon           .o. 
+               Cleanup;
+regex Grammar;

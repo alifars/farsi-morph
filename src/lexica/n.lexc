@@ -5,3 +5,10 @@ LEXICON Root
 n ;
 
 LEXICON n
+
+سگ Ninf;
+
+LEXICON Ninf
+
++N+Sg:0 #;
++N+Pl:^ها #;
