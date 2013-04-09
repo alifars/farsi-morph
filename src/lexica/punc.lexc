@@ -4,6 +4,7 @@ LEXICON Root
 Punc;
 
 LEXICON PuncInf
++Punc:0 #;
 
 LEXICON Punc
 !	PuncInf;

@@ -4,6 +4,7 @@ LEXICON Root
 Part;
 
 LEXICON PartInf
++Part:0 #;
 
 LEXICON Part
 یا	PartInf;

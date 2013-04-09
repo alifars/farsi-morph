@@ -4,6 +4,7 @@ LEXICON Root
 Psus;
 
 LEXICON PsusInf
++Psus:0 #;
 
 LEXICON Psus
 خوب	PsusInf;

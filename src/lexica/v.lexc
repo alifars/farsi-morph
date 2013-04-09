@@ -4,6 +4,7 @@ LEXICON Root
 V;
 
 LEXICON VInf
++V:0 #;
 
 LEXICON V
 لرزید#لرز	VInf;

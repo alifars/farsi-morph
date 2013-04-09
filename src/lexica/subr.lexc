@@ -4,6 +4,7 @@ LEXICON Root
 Subr;
 
 LEXICON SubrInf
++Subr:0 #;
 
 LEXICON Subr
 اگر	SubrInf;

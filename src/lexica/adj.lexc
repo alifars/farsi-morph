@@ -4,6 +4,7 @@ LEXICON Root
 Adj;
 
 LEXICON AdjInf
++Adj:0 #;
 
 LEXICON Adj
 بغرنج	AdjInf;

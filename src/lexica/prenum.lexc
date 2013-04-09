@@ -4,6 +4,7 @@ LEXICON Root
 Prenum;
 
 LEXICON PrenumInf
++Prenum:0 #;
 
 LEXICON Prenum
 150	PrenumInf;

@@ -4,6 +4,7 @@ LEXICON Root
 Adv;
 
 LEXICON AdvInf
++Adv:0 #;
 
 LEXICON Adv
 راحت	AdvInf;

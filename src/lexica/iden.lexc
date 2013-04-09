@@ -4,6 +4,7 @@ LEXICON Root
 Iden;
 
 LEXICON IdenInf
++Iden:0 #;
 
 LEXICON Iden
 سرکار	IdenInf;

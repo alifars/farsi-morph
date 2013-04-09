@@ -4,6 +4,7 @@ LEXICON Root
 Postp;
 
 LEXICON PostpInf
++Postp:0 #;
 
 LEXICON Postp
 درباره	PostpInf;

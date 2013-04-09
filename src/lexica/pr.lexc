@@ -4,6 +4,7 @@ LEXICON Root
 Pr;
 
 LEXICON PrInf
++Pr:0 #;
 
 LEXICON Pr
 من	PrInf;

@@ -4,6 +4,7 @@ LEXICON Root
 Prep;
 
 LEXICON PrepInf
++Prep:0 #;
 
 LEXICON Prep
 قابل	PrepInf;

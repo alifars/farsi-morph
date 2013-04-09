@@ -4,6 +4,7 @@ LEXICON Root
 Posnum;
 
 LEXICON PosnumInf
++Posnum:0 #;
 
 LEXICON Posnum
 12	PosnumInf;

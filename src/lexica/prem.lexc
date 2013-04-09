@@ -4,6 +4,7 @@ LEXICON Root
 Prem;
 
 LEXICON PremInf
++Prem:0 #;
 
 LEXICON Prem
 دین	PremInf;
