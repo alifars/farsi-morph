@@ -6,6 +6,11 @@ N;
 LEXICON NInf
 +N+Sg:0 #;
 +N+Pl:^ها #;
++N+Pl:^ان #;
++N+Pl:^گان #;
++N+Pl:^یان #;
++N+Pl:^ات #;
++N+Pl:^ین #;
 
 LEXICON N
 سگ	NInf;

@@ -6,12 +6,34 @@ Pr;
 LEXICON PrInf
 +Pr:0 #;
 
+LEXICON Pr1sg
++Pr+1+Sg:0 #;
+
+LEXICON Pr2sg
++Pr+2+Sg:0 #;
+
+LEXICON Pr3sg
++Pr+3+Sg:0 #;
+
+LEXICON Pr1pl
++Pr+1+Pl:0 #;
+
+LEXICON Pr2pl
++Pr+2+Pl:0 #;
+
+LEXICON Pr3pl
++Pr+3+Pl:0 #;
+
 LEXICON Pr
-من	PrInf;
+من	Pr1sg;
+تو	Pr2sg;
+ام	Pr3sg;
+ما	Pr1pl;
+شُما	Pr2pl;
+آنها	Pr3pl;
+‌آنها	Pr3pl;
 همین	PrInf;
-آنها	PrInf;
 تان	PrInf;
-‌آنها	PrInf;
 اینان	PrInf;
 شان	PrInf;
 کو	PrInf;
@@ -22,5 +44,3 @@ LEXICON Pr
 این	PrInf;
 شما	PrInf;
 همدیگر	PrInf;
-ام	PrInf;
-ما	PrInf;
