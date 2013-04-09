@@ -1,7 +1,9 @@
 !!!subr.lexc!!!
 
 LEXICON Root
+Subr;
 
-subr ;
+LEXICON SubrInf
 
-LEXICON subr
+LEXICON Subr
+اگر	SubrInf;

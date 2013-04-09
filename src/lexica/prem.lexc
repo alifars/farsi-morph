@@ -1,7 +1,16 @@
 !!!prem.lexc!!!
 
 LEXICON Root
+Prem;
 
-prem ;
+LEXICON PremInf
 
-LEXICON prem
+LEXICON Prem
+دین	PremInf;
+لحظه	PremInf;
+همین	PremInf;
+همان‌	PremInf;
+یک	PremInf;
+ساعتها	PremInf;
+چندین	PremInf;
+چندان	PremInf;

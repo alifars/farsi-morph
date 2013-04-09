@@ -1,7 +1,12 @@
 !!!postp.lexc!!!
 
 LEXICON Root
+Postp;
 
-postp ;
+LEXICON PostpInf
 
-LEXICON postp
+LEXICON Postp
+درباره	PostpInf;
+را	PostpInf;
+همراه	PostpInf;
+میان	PostpInf;

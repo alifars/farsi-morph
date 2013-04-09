@@ -1,7 +1,11 @@
 !!!conj.lexc!!!
 
 LEXICON Root
+Conj;
 
-conj ;
+LEXICON ConjInf
++Conj:0 #;
 
-LEXICON conj
+LEXICON Conj
+اگرنه	ConjInf;
+و	ConjInf;

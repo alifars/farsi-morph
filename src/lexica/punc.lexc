@@ -1,7 +1,14 @@
 !!!punc.lexc!!!
 
 LEXICON Root
+Punc;
 
-punc ;
+LEXICON PuncInf
 
-LEXICON punc
+LEXICON Punc
+!	PuncInf;
+–	PuncInf;
+15	PuncInf;
+....	PuncInf;
+» 	PuncInf;
+متعدد	PuncInf;

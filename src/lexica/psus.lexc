@@ -1,7 +1,16 @@
 !!!psus.lexc!!!
 
 LEXICON Root
+Psus;
 
-psus ;
+LEXICON PsusInf
 
-LEXICON psus
+LEXICON Psus
+خوب	PsusInf;
+دختر	PsusInf;
+باشد	PsusInf;
+نعوذ	PsusInf;
+برادر	PsusInf;
+ان‌شاا...	PsusInf;
+بالله	PsusInf;
+پیغمبر	PsusInf;

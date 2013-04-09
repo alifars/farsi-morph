@@ -1,7 +1,25 @@
 !!!pr.lexc!!!
 
 LEXICON Root
+Pr;
 
-pr ;
+LEXICON PrInf
 
-LEXICON pr
+LEXICON Pr
+من	PrInf;
+همین	PrInf;
+آنها	PrInf;
+تان	PrInf;
+‌آنها	PrInf;
+اینان	PrInf;
+شان	PrInf;
+کو	PrInf;
+همانها	PrInf;
+هیچ	PrInf;
+خود‌	PrInf;
+آن	PrInf;
+این	PrInf;
+شما	PrInf;
+همدیگر	PrInf;
+ام	PrInf;
+ما	PrInf;

@@ -1,7 +1,10 @@
 !!!part.lexc!!!
 
 LEXICON Root
+Part;
 
-part ;
+LEXICON PartInf
 
-LEXICON part
+LEXICON Part
+یا	PartInf;
+خوب	PartInf;
