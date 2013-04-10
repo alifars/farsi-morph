@@ -1,5 +1,7 @@
 !!!punc.lexc!!!
 
+Multichar_Symbols +Punc
+
 LEXICON Root
 Punc;
 

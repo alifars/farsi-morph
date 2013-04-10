@@ -1,16 +1,20 @@
 !!!n.lexc!!!
 
+Multichar_Symbols +N +Sg +Pl +Indf +Poss +1P +2P +3P
+
 LEXICON Root
 N;
 
 LEXICON NInf
 +N+Sg:0 #;
 +N+Pl:^ها #;
-+N+Pl:^ان #;
-+N+Pl:^گان #;
-+N+Pl:^یان #;
-+N+Pl:^ات #;
-+N+Pl:^ین #;
++N+Indf:^ی #;
++N+Poss+1P+Sg:^م #;
++N+Poss+2P+Sg:^ت #;
++N+Poss+3P+Sg:^ش #;
++N+Poss+1P+Pl:^مان #;
++N+Poss+2P+Pl:^تان #;
++N+Poss+3P+Pl:^شان #;
 
 LEXICON N
 سگ	NInf;

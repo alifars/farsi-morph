@@ -1,5 +1,7 @@
 !!!psus.lexc!!!
 
+Multichar_Symbols +Psus
+
 LEXICON Root
 Psus;
 

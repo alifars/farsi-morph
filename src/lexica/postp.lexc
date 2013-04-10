@@ -1,5 +1,7 @@
 !!!postp.lexc!!!
 
+Multichar_Symbols +Postp
+
 LEXICON Root
 Postp;
 

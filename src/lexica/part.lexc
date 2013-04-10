@@ -1,5 +1,7 @@
 !!!part.lexc!!!
 
+Multichar_Symbols +Part
+
 LEXICON Root
 Part;
 

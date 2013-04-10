@@ -1,5 +1,7 @@
 !!!conj.lexc!!!
 
+Multichar_Symbols +Conj
+
 LEXICON Root
 Conj;
 

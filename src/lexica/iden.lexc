@@ -1,5 +1,7 @@
 !!!iden.lexc!!!
 
+Multichar_Symbols +Iden
+
 LEXICON Root
 Iden;
 

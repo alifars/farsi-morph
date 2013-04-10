@@ -1,5 +1,7 @@
 !!!subr.lexc!!!
 
+Multichar_Symbols +Subr
+
 LEXICON Root
 Subr;
 

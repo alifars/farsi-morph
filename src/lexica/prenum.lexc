@@ -1,5 +1,7 @@
 !!!prenum.lexc!!!
 
+Multichar_Symbols +Prenum
+
 LEXICON Root
 Prenum;
 

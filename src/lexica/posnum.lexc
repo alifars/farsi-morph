@@ -1,5 +1,7 @@
 !!!posnum.lexc!!!
 
+Multichar_Symbols +Posnum
+
 LEXICON Root
 Posnum;
 

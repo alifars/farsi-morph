@@ -1,5 +1,7 @@
 !!!prep.lexc!!!
 
+Multichar_Symbols +Prep
+
 LEXICON Root
 Prep;
 
