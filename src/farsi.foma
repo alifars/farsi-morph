@@ -41,7 +41,7 @@ regex adj | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum |
 define Lexicon;
 
 # Cleanup: remove morpheme boundaries
-define Cleanup1 "^" -> ""; ! replace "^" with nothing
+define Cleanup1 "^" -> 0; ! replace "^" with nothing
 define Cleanup2 "~" -> "‌"; ! replace "~" with ZWNJ
 
 # Compose lexicon with rules and cleanup rule to build grammar
