@@ -11,6 +11,8 @@ LEXICON AdjInf
 +Adj+Supr:^تَرین #;
 
 LEXICON Adj
+!Lexical items from corpus
+
 بغرنج	AdjInf;
 بی‌همتا	AdjInf;
 افتخاری	AdjInf;
@@ -28,13 +30,13 @@ LEXICON Adj
 هولناک	AdjInf;
 معوقه	AdjInf;
 جداگانه	AdjInf;
+بازآورده	AdjInf;
 تحقیقی	AdjInf;
 درنده	AdjInf;
 ناپخته	AdjInf;
 پکر	AdjInf;
 ربانی	AdjInf;
 متوجه	AdjInf;
-تعیین‌کننده‌	AdjInf;
 شهیر	AdjInf;
 حقیقت‌جو	AdjInf;
 مخفیانه	AdjInf;
@@ -64,7 +66,6 @@ LEXICON Adj
 صغیر	AdjInf;
 فولکلور	AdjInf;
 تلف‌شده	AdjInf;
-مطبوعاتی‌	AdjInf;
 گاستروستومی	AdjInf;
 انسان‌دوستانه	AdjInf;
 چاپ‌شده	AdjInf;
@@ -121,7 +122,6 @@ LEXICON Adj
 خر	AdjInf;
 همدل	AdjInf;
 مخرب	AdjInf;
-بازآورده‌	AdjInf;
 هیتلری	AdjInf;
 بی‌مهار	AdjInf;
 سابتراکتیو	AdjInf;
@@ -178,12 +178,12 @@ LEXICON Adj
 چپ‌گرایانه	AdjInf;
 مزدور	AdjInf;
 رمزدار	AdjInf;
+جوگندمی	AdjInf;
 مأنوس	AdjInf;
 سوزنی	AdjInf;
 مبهوت	AdjInf;
 زناشویی	AdjInf;
 چنگال‌مانند	AdjInf;
-جوگندمی‌	AdjInf;
 دنیا‌فریبی	AdjInf;
 پایین	AdjInf;
 مقطعه	AdjInf;
@@ -212,6 +212,7 @@ LEXICON Adj
 زیاد	AdjInf;
 مشترک	AdjInf;
 سکسی	AdjInf;
+تعیین‌کننده	AdjInf;
 بلیغ	AdjInf;
 نوشیدنی	AdjInf;
 شکرگزار	AdjInf;
@@ -328,7 +329,7 @@ LEXICON Adj
 فرا	AdjInf;
 سیاه	AdjInf;
 شیرین‌زبان	AdjInf;
-چشمگیر	AdjInf;
+بیش	AdjInf;
 باج‌خواه	AdjInf;
 بین‌المجالس	AdjInf;
 کریم	AdjInf;
@@ -473,6 +474,7 @@ LEXICON Adj
 لبالب	AdjInf;
 آماتوری	AdjInf;
 صورت‌سنگی	AdjInf;
+مطبوعاتی	AdjInf;
 بوشهری	AdjInf;
 برجسته	AdjInf;
 دیکتاتوری	AdjInf;
@@ -497,7 +499,6 @@ LEXICON Adj
 تعویقی	AdjInf;
 معطوف	AdjInf;
 جنی	AdjInf;
-‌اثنی‌عشری	AdjInf;
 افسانه‌آمیز	AdjInf;
 ذهابی	AdjInf;
 دامی	AdjInf;
@@ -540,6 +541,7 @@ LEXICON Adj
 سخت‌گیرانه	AdjInf;
 غرب‌زده	AdjInf;
 کنترلی	AdjInf;
+چشمگیر	AdjInf;
 فلزی	AdjInf;
 خوشگوار	AdjInf;
 سینمایی	AdjInf;
@@ -595,6 +597,7 @@ LEXICON Adj
 واپس‌زده	AdjInf;
 بسیار	AdjInf;
 دلگیر	AdjInf;
+اثنی‌عشری	AdjInf;
 موفورالسرور	AdjInf;
 پر‌جنایت	AdjInf;
 متلذذ	AdjInf;
@@ -608,9 +611,7 @@ LEXICON Adj
 اعظم	AdjInf;
 صلیبی	AdjInf;
 شیطان‌پرست	AdjInf;
-بیش‌	AdjInf;
 معلول	AdjInf;
-جدی‌	AdjInf;
 افزایشی	AdjInf;
 کارکردی	AdjInf;
 یکباره	AdjInf;

@@ -9,6 +9,8 @@ LEXICON PrenumInf
 +Prenum:0 #;
 
 LEXICON Prenum
+!Lexical items from corpus
+
 150	PrenumInf;
 هفت	PrenumInf;
 ۳۰	PrenumInf;

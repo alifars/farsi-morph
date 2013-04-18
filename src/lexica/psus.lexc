@@ -9,6 +9,8 @@ LEXICON PsusInf
 +Psus:0 #;
 
 LEXICON Psus
+!Lexical items from corpus
+
 خوب	PsusInf;
 دختر	PsusInf;
 باشد	PsusInf;

@@ -1,4 +1,6 @@
 ### farsi.foma ###
+#Weston Feely
+#4/17/13
 
 # Read in Lexica by POS tag
 read lexc lexica/adj.lexc
@@ -39,11 +41,13 @@ regex adj | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum |
 define Lexicon;
 
 # Cleanup: remove morpheme boundaries
-define Cleanup "^" -> " ";
+define Cleanup1 "^" -> ""; ! replace "^" with nothing
+define Cleanup2 "~" -> "‌"; ! replace "~" with ZWNJ
 
 # Compose lexicon with rules and cleanup rule to build grammar
-define Grammar Lexicon           .o. 
-               Cleanup;
+define Grammar Lexicon		.o. 
+               	Cleanup1	.o.
+		Cleanup2;
 regex Grammar;
 
 # Save into farsi.bin and exit

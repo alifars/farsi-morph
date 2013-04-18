@@ -9,6 +9,8 @@ LEXICON PrepInf
 +Prep:0 #;
 
 LEXICON Prep
+!Lexical items from corpus
+
 قابل	PrepInf;
 گوشۀ	PrepInf;
 لای	PrepInf;

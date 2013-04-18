@@ -9,6 +9,8 @@ LEXICON AdvInf
 +Adv:0 #;
 
 LEXICON Adv
+!Lexical items from corpus
+
 راحت	AdvInf;
 تند‌تند	AdvInf;
 ان‌شاء‌الله	AdvInf;

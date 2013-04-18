@@ -9,5 +9,7 @@ LEXICON PartInf
 +Part:0 #;
 
 LEXICON Part
+!Lexical items from corpus
+
 یا	PartInf;
 خوب	PartInf;

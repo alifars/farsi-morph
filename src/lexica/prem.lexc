@@ -9,11 +9,13 @@ LEXICON PremInf
 +Prem:0 #;
 
 LEXICON Prem
+!Lexical items from corpus
+
 دین	PremInf;
 لحظه	PremInf;
 همین	PremInf;
-همان‌	PremInf;
 یک	PremInf;
+همان	PremInf;
 ساعتها	PremInf;
 چندین	PremInf;
 چندان	PremInf;

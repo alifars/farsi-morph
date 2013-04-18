@@ -27,22 +27,28 @@ LEXICON Pr3pl
 +Pr+3P+Pl:0 #;
 
 LEXICON Pr
-من	Pr1sg;
-تو	Pr2sg;
-ام	Pr3sg;
-ما	Pr1pl;
-شُما	Pr2pl;
-آنها	Pr3pl;
-‌آنها	Pr3pl;
+!Subject Pronouns
+من Pr1sg;
+تو Pr2sg;
+او Pr3sg;
+ما Pr1pl;
+شما Pr2pl;
+آنها Pr3pl;
+!Lexical items from corpus
+
+خود	PrInf;
+من	PrInf;
 همین	PrInf;
+آنها	PrInf;
 تان	PrInf;
 اینان	PrInf;
 شان	PrInf;
 کو	PrInf;
 همانها	PrInf;
 هیچ	PrInf;
-خود‌	PrInf;
+ما	PrInf;
 آن	PrInf;
 این	PrInf;
 شما	PrInf;
 همدیگر	PrInf;
+ام	PrInf;

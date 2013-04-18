@@ -9,6 +9,8 @@ LEXICON PostpInf
 +Postp:0 #;
 
 LEXICON Postp
+!Lexical items from corpus
+
 درباره	PostpInf;
 را	PostpInf;
 همراه	PostpInf;
