@@ -1,8 +1,8 @@
-### farsi.foma ###
-#Weston Feely
-#4/17/13
+!!!farsi.foma!!!
+!Weston Feely
+!4/17/13
 
-# Read in Lexica by POS tag
+! Read in Lexica by POS tag
 read lexc lexica/adj.lexc
 define adj;
 read lexc lexica/adv.lexc
@@ -36,20 +36,26 @@ define subr;
 read lexc lexica/v.lexc
 define v;
 
-# Combine lexica into single lexicon
+! Combine lexica into single lexicon
 regex adj | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum | prep | psus | punc | subr | v;
 define Lexicon;
 
-# Cleanup: remove morpheme boundaries
+! Cleanup: remove morpheme boundaries
 define Cleanup1 "^" -> 0; ! replace "^" with nothing
 define Cleanup2 "~" -> "‌"; ! replace "~" with ZWNJ
 
-# Compose lexicon with rules and cleanup rule to build grammar
-define Grammar Lexicon		.o. 
+! Morphophonemic rules
+define YeInsertion [..] -> ی || و | ا _ {^ان} ;
+define GafReplacement ی -> گ || ﻩ _ {^ان} ;
+
+! Compose lexicon with rules and cleanup rule to build grammar
+define Grammar 	Lexicon		.o. 
+		YeInsertion	.o.
+		GafReplacement	.o.
                	Cleanup1	.o.
 		Cleanup2;
 regex Grammar;
 
-# Save into farsi.bin and exit
-#save stack farsi.bin
-#exit;
+! Save into farsi.bin and exit
+!save stack farsi.bin
+!exit;

@@ -9,10 +9,3 @@ LEXICON PosnumInf
 +Posnum:0 #;
 
 LEXICON Posnum
-!Lexical items from corpus
-12	PosnumInf;
-هجدهم	PosnumInf;
-یک	PosnumInf;
-پنجاه	PosnumInf;
-هفتاد	PosnumInf;
-85	PosnumInf;
