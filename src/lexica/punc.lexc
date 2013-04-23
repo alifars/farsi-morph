@@ -10,3 +10,9 @@ LEXICON PuncInf
 
 LEXICON Punc
 !Lexical items from corpus
+!	PuncInf;
+–	PuncInf;
+15	PuncInf;
+....	PuncInf;
+متعدد	PuncInf;
+»	PuncInf;

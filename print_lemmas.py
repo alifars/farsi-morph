@@ -1,13 +1,13 @@
 #!/usr/bin/python
 #print_lemmas.py
 #Weston Feely
-#4/18/13
+#4/23/13
 import sys, re
 
 def main(args):
 	#Check for required args
 	if len(args) < 3:
-		print 'Usage: python print_lemmas.py corpus part-of-speech >> ../src/lexica/part-of-speech.lexc'
+		print 'Usage: python print_lemmas.py data/corpus part-of-speech >> src/lexica/part-of-speech.lexc'
 		return 1
 	#Read in args
 	corpus = open(args[1]).readlines()
