@@ -7,6 +7,7 @@ Adj;
 
 LEXICON AdjInf
 +Adj:0 #;
+!Comparative and Superlative
 +Adj+Comp:^تر #;
 +Adj+Supr:^ترین #;
 !Derivational morphology

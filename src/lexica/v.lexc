@@ -3,24 +3,23 @@
 Multichar_Symbols +V +1P +2P +3P +Sg +Pl +Neg +Dur +Subj/Imp +Inf +Nom +Adj +Able
 
 LEXICON Root
+VPrefix;
 V;
+
+LEIXON VPrefix
+!Negation
++Neg:نه^ V;
++Neg:نا^ V;
+!Durative
++Dur+Neg:نهمی~ V; !Form with ZWNJ
++Dur:می~ V; !Form with ZWNJ
+!Subjunctive/Imperative
++Subj/Imp:به^ V;
 
 LEXICON VInf
 +V:0 #;
 !Derivational suffixes
 +V+Nom:^ار #;
-+V+Neg+Adj:نه^ #;
-+V+Neg+Nom:نه^^ی #;
-!Prefixes
-!Negation
-+V+Neg:نه^ #;
-+V+Neg:نا^ #;
-!Durative
-+V+Dur+Neg:نهمی~ #; !Form with ZWNJ
-+V+Dur:می~ #; !Form with ZWNJ
-!Subjunctive/Imperative
-+V+Subj/Imp:به^ #;
-!Suffixes
 !Infinitive
 +V+Inf:^ن #;
 +V+Able:^نی #;
