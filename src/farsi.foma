@@ -1,6 +1,6 @@
 !!!farsi.foma!!!
 !Weston Feely
-!4/17/13
+!4/24/13
 
 ! Read in Lexica by POS tag
 read lexc lexica/adj.lexc
@@ -45,17 +45,17 @@ define Cleanup1 "^" -> 0; ! replace "^" with nothing
 define Cleanup2 "~" -> "‌"; ! replace "~" with ZWNJ
 
 ! Morphophonemic rules
-define YeInsertion [..] -> ی || و | ا _ {^ان} ;
-define GafReplacement ی -> گ || ﻩ _ {^ان} ;
+!define YeInsertion [..] -> ی || و | ا _ {^ان} ;
+!define GafReplacement ی -> گ || ﻩ _ {^ان} ;
 
 ! Compose lexicon with rules and cleanup rule to build grammar
 define Grammar 	Lexicon		.o. 
-		YeInsertion	.o.
-		GafReplacement	.o.
+!		YeInsertion	.o.
+!		GafReplacement	.o.
                	Cleanup1	.o.
 		Cleanup2;
 regex Grammar;
 
 ! Save into farsi.bin and exit
-!save stack farsi.bin
-!exit;
+save stack farsi.bin
+exit;

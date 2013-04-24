@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #random_split_3sets.py
 #Weston Feely
-#3/25/13
+#4/24/13
 import sys, re, random
 
 '''Splits Farsi tokens data file into three sets (A B C), randomly choosing a user defined percentage of the sentences as the A and B sets and placing the remainder of the sentences into the C set.
@@ -9,7 +9,7 @@ Writes three files to the current directory: A.txt, B.txt and C.txt'''
 def main(args):
 	#Check args
 	if len(args) < 4:
-		print 'Usage: python random_split_3sets.py farsitokens.txt A_fraction B_fraction'
+		print "Usage: python random_split_3sets.py farsi_tokens.txt A_fraction B_fraction"
 		return 1
 	#Read Farsi tokens data from file
 	filename = args[1]

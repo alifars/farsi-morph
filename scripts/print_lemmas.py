@@ -23,10 +23,10 @@ def main(args):
 		#Substitute ZWNJ for space internally in token
 		token = re.sub(' ','\xe2\x80\x8c',token)
 		#Substitute "~" for ZWNJ internally in token	
-		token = re.sub('\xe2\x80\x8c','~',token)
+		#token = re.sub('\xe2\x80\x8c','~',token)
 		#Strip lemmas edges of whitespace and ZWNJ
 		lemma = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
-		#Substitute ZWNJ for space internally in token
+		#Substitute ZWNJ for space internally in lemma
 		lemma = re.sub(' ','\xe2\x80\x8c',lemma)
 		#Strip pos tag edges of whitespace and lowercase it
 		pos = lis[2].strip().lower()
