@@ -1,6 +1,6 @@
 Farsi-Morph
 Weston Feely
-4/24/13
+4/25/13
 
 Main repository for Farsi morphological analyzer project.
 
@@ -15,8 +15,9 @@ To Do List:
 	- (Done) Put lemmas from A corpus into lexicon files
 	- (Done) Write basic morphology into lexicon for each open-class POS category
 	- (In Progress) Modify lexical morphology to allow repeated application of suffixes
-- (In Progress) Make an evaluation script, to get lemma accuracy for a given corpus
-- (In Progress) Evaluate on A corpus
+	- Add auxiliary verb patterns to verbal lexicon
+- (Done) Make an evaluation script, to get lemma accuracy for a given corpus
+- (Done) Evaluate on A corpus
 - Put lemmas from B corpus into lexicon files
 - Evaluate on B corpus
 - Put lemmas from C corpora into lexicon files
