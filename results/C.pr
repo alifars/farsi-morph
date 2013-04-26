@@ -1,0 +1,6 @@
+Corpus C
+Precision=0.606180429543
+22382 correct lemmas out of 36923 total analysis hypotheses
+Recall=0.574973668662
+22382 correct lemmas out of 38927 total lemmas
+F-Score=0.590164798945

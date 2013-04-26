@@ -36,26 +36,37 @@ def main(args):
 			if (line != '') and (not line.isspace()):
 				buff.add(line)
 	assert len(gold) == len(hyp)
-	#Get an accuracy score for this corpus	
-	acc = 0
-	i = 0
+	#Compute precision-recall for the analysis of this corpus
+	correct = 0 # number of correct matches
+	num_gold = 0 # total number of gold standard lemmas
+	num_hyp = 0 # total number of produced analyses
+	i = 0 # hypothesis counter
 	for lemma in gold:
 		#Check if lemma is a tuple (for verb lemma)
 		if type(lemma) is tuple:
+			num_gold += len(lemma)
 			#Loop through verb lemmas in lemma tuple
 			for verb_lemma in lemma:
 				#If any hypothesis lemma is the same as this gold verb lemma
 				if verb_lemma in hyp[i]:
-					acc += 1 # count this as an accurate hypothesis
-					break # don't give credit for multiple accurate verb lemma hypotheses
+					correct += 1 # count this as an accurate hypothesis
 		else:
+			num_gold += 1
 			#If any hypothesis lemma is the same as the gold lemma			
 			if lemma in hyp[i]:
-				acc += 1 # count this as an accurate hypothesis
+				correct += 1 # count this as an accurate hypothesis
+		num_hyp += len(hyp[i])		
 		i+=1 # move to next hypothesis
 	#Write accuracy to stdout
-	print "Accuracy="+str(float(acc)/i)
-	print str(acc)+" correct analyses out of "+str(i)+" total"
+	letter = args[1].split('/')[-1][0]
+	p = float(correct)/num_hyp
+	r = float(correct)/num_gold
+	print "Corpus "+letter
+	print "Precision="+str(p)
+	print str(correct)+" correct lemmas out of "+str(num_hyp)+" total analysis hypotheses"
+	print "Recall="+str(r)
+	print str(correct)+" correct lemmas out of "+str(num_gold)+" total lemmas"
+	print "F-Score="+str(2*((p*r)/(p+r)))
 	return 0
 
 if __name__ == "__main__":
