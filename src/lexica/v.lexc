@@ -6,7 +6,7 @@ LEXICON Root
 VPrefix;
 V;
 
-LEIXON VPrefix
+LEXICON VPrefix
 !Negation
 +Neg:نه^ V;
 +Neg:نا^ V;
@@ -29,7 +29,7 @@ LEXICON VInf
 +V+3P+Sg:~د #; !Form with ZWNJ
 +V+1P+Pl:^یم #;
 +V+2P+Pl:^ید #;
-+V+3P+Pl:^ند #; !Form with ZWNJ
++V+3P+Pl:~ند #; !Form with ZWNJ
 !Past Tense
 +V+Past:^د #;
 +V+Past:^ت #;
@@ -64,7 +64,6 @@ LEXICON V
 خوراند	VInf;
 سرود	VInf;
 میر	VInf;
-‌آمیخت	VInf;
 وزید	VInf;
 پر	VInf;
 سپر	VInf;
@@ -273,7 +272,6 @@ LEXICON V
 گریز	VInf;
 نگر	VInf;
 شکافت	VInf;
-‌گذشت	VInf;
 وزان	VInf;
 افکند	VInf;
 مانست	VInf;

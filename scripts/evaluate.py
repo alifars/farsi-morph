@@ -63,9 +63,9 @@ def main(args):
 			if lemma in hyp[i]:
 				acc += 1 # count this as an accurate hypothesis
 		i+=1 # move to next hypothesis
-	acc = float(acc)/i
 	#Write accuracy to stdout
-	print acc
+	print "Accuracy="+str(float(acc)/i)
+	print str(acc)+" correct analyses out of "+str(i)+" total"
 	return 0
 
 if __name__ == "__main__":

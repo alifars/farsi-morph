@@ -12,8 +12,8 @@ LEXICON AdjInf
 +Adj+Supr:^ترین #;
 !Derivational morphology
 +Adj+Nom:^ی #; ! abstract nouns
-!+Adj+Nom:^ان #; ! where did this come from?
-!+Adj+Nom:^ا #; ! where did this come from?
++Adj+Nom:^ان #;
++Adj+Nom:^ا #;
 !Pronominal enclitics
 +Adj+Poss+1P+Sg:^م #;
 +Adj+Poss+2P+Sg:^ت #;
