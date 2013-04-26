@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #setup_eval.py
 #Weston Feely
-#4/25/13
+#4/26/13
 import sys, re
 
 #Extracts the tokens and lemmas from a given corpus text file, separates them into token and lemma lists, ready for evaluation
@@ -27,7 +27,7 @@ def main(args):
 		#Substitute ZWNJ for space internally in lemma
 		lemma = re.sub(' ','\xe2\x80\x8c',lemma)
 		#Don't use empty lemmas
-		if lemma.isspace() or lemma == '':
+		if lemma.isspace() or lemma == '' or lemma.decode('utf-8') == u'\u200c':
 			continue
 		#Append token to tokens list
 		tokens.append(token)

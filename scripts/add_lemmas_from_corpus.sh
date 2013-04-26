@@ -1,13 +1,14 @@
 #!/bin/bash
 #add_lemmas_from_corpus.sh
 #Weston Feely
-#4/23/13
+#4/26/13
 
 #Read in corpus letter from args
 corpus=$1
 
 #Add lemmas from this corpus to each POS lexicon
-./print_lemmas.py ../data/${corpus}.txt adj >> ../src/lexica/adj.lexc 
+./print_lemmas.py ../data/${corpus}.txt adj >> ../src/lexica/adj.lexc
+./print_lemmas.py ../data/${corpus}.txt adr >> ../src/lexica/adr.lexc 
 ./print_lemmas.py ../data/${corpus}.txt adv >> ../src/lexica/adv.lexc
 ./print_lemmas.py ../data/${corpus}.txt conj >> ../src/lexica/conj.lexc
 ./print_lemmas.py ../data/${corpus}.txt iden >> ../src/lexica/iden.lexc

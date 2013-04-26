@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #evaluate.py
 #Weston Feely
-#4/25/13
+#4/26/13
 import sys, re
 
 def main(args):
@@ -40,16 +40,6 @@ def main(args):
 	acc = 0
 	i = 0
 	for lemma in gold:
-		'''
-		#Set up print statement for debugging
-		lexp = ''
-		if type(lemma) is tuple:
-			lexp = ' '.join(lemma)
-		else:
-			lexp = lemma
-		rexp = ' '.join(hyp[i])
-		print "Lemma: ["+lexp+"] | Hyp: ["+rexp+"]"
-		'''		
 		#Check if lemma is a tuple (for verb lemma)
 		if type(lemma) is tuple:
 			#Loop through verb lemmas in lemma tuple
@@ -59,7 +49,7 @@ def main(args):
 					acc += 1 # count this as an accurate hypothesis
 					break # don't give credit for multiple accurate verb lemma hypotheses
 		else:
-			#If any hypothesis lemma is the same as the gold lemma
+			#If any hypothesis lemma is the same as the gold lemma			
 			if lemma in hyp[i]:
 				acc += 1 # count this as an accurate hypothesis
 		i+=1 # move to next hypothesis
