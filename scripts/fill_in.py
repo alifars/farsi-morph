@@ -32,7 +32,7 @@ def main(args):
 	i = 0
 	for item in hyp:
 		if item == ['+?\n']:
-			out.append(tokens[i])
+			out.append(tokens[i].strip()+"+Guess\n")
 		else:
 			out.append(item)
 		i+=1
