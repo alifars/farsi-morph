@@ -5,6 +5,8 @@
 ! Read in Lexica by POS tag
 read lexc lexica/adj.lexc
 define adj;
+read lexc lexica/adr.lexc
+define adr;
 read lexc lexica/adv.lexc
 define adv;
 read lexc lexica/conj.lexc
@@ -37,7 +39,7 @@ read lexc lexica/v.lexc
 define v;
 
 ! Combine lexica into single lexicon
-regex adj | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum | prep | psus | punc | subr | v;
+regex adj | adr | adv | conj | iden | n | part | posnum | postp | pr | prem | prenum | prep | psus | punc | subr | v;
 define Lexicon;
 
 ! Cleanup: remove morpheme boundaries

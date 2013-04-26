@@ -1,0 +1,12 @@
+!!!adr.lexc!!!
+
+Multichar_Symbols +Adr
+
+LEXICON Root
+Adr;
+
+LEXICON AdrInf
++Adr:0 #;
+
+LEXICON Adr
+!Lexical items from corpus
