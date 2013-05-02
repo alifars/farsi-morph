@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*- 
 #norm_farsi.py
 #Weston Feely
-#4/25/13
+#5/1/13
 import sys, re
 
-#Normalizes Farsi text, removing diacritics (except alef madde) and converting Arabic ya to Farsi ye
+#Normalizes Farsi text, removing diacritics and converting Arabic ya to Farsi ye
 def main(args):
 	#Check for required args
 	if len(args) < 2:
@@ -29,10 +29,10 @@ def main(args):
 		#Remove all diacritics
 		for item in diacritics:
 			line = re.sub(item,u'',line.decode('utf-8')).encode('utf-8')
-		#Normalize alef (except alef madde)
+		#Normalize alef
 		line = re.sub('أ','ا',line)
 		line = re.sub('إ','ا',line)
-		#line = re.sub('آ','ا',line)
+		line = re.sub('آ','ا',line)
 		#Normalize heh
 		line = re.sub('ۀ','ه',line)
 		#Convert Arabic ya to Farsi ye
