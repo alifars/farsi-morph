@@ -15,22 +15,22 @@ def main(args):
 	#Add all lemmas with specified POS tag to lemmas set
 	lemmas = set()
 	for line in corpus:
-		#Strip whitespace off line edges and split on tab
+                #Strip whitespace off line edges and split on tab
 		lis = line.strip().split('\t')
 		#Strip token edges of whitespace and ZWNJ
-		token = lis[0].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+		token = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
 		#Substitute ZWNJ for space or #-character internally in token
 		token = re.sub(' ','\xe2\x80\x8c',token)
 		token = re.sub('\#','\xe2\x80\x8c',token)
 		#Strip lemmas edges of whitespace and ZWNJ
-		lemma = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+		lemma = lis[2].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
 		#Substitute ZWNJ for space internally in lemma
 		lemma = re.sub(' ','\xe2\x80\x8c',lemma)
 		#Don't use empty lemmas
 		if lemma.isspace() or lemma == '':
 			continue
 		#Strip pos tag edges of whitespace and lowercase it
-		pos = lis[2].strip().lower()
+		pos = lis[3].strip().lower()
 		#If this is the POS we're looking for, add the lemma to our list
 		if check_pos == pos:
 			#Check if POS is verb

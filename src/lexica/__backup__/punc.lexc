@@ -1,0 +1,48 @@
+!!!punc.lexc!!!
+
+Multichar_Symbols +Punc
+
+LEXICON Root
+Punc;
+
+LEXICON PuncInf
++Punc:0 #;
+
+LEXICON Punc
+!Lexical items from corpus
+!	PuncInf;
+–	PuncInf;
+15	PuncInf;
+....	PuncInf;
+متعدد	PuncInf;
+»	PuncInf;
+...	PuncInf;
+و	PuncInf;
+]	PuncInf;
+'	PuncInf;
+«	PuncInf;
+.‬	PuncInf;
+،	PuncInf;
+....	PuncInf;
+؛	PuncInf;
+؟	PuncInf;
+!	PuncInf;
+"	PuncInf;
+%	PuncInf;
+&	PuncInf;
+)	PuncInf;
+(	PuncInf;
+-	PuncInf;
+/	PuncInf;
+.	PuncInf;
+؟‬	PuncInf;
+:	PuncInf;
+<	PuncInf;
+>	PuncInf;
+که	PuncInf;
+قتل	PuncInf;
+[	PuncInf;
+٬	PuncInf;
+”	PuncInf;
+“	PuncInf;
+»	PuncInf;

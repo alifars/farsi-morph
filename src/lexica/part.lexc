@@ -1,20 +1,6 @@
-!!!part.lexc!!!
-
-Multichar_Symbols +Part
-
-LEXICON Root
-Part;
-
-LEXICON PartInf
-+Part:0 #;
-
-LEXICON Part
-!Lexical items from corpus
-یا	PartInf;
-خوب	PartInf;
 که	PartInf;
-دیگر	PartInf;
-آیا	PartInf;
-آخر	PartInf;
+یا	PartInf;
+اخر	PartInf;
+ایا	PartInf;
 مگر	PartInf;
 را	PartInf;

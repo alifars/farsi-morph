@@ -1,3 +1,4 @@
+````
 ----scripts
 	|
 	|-print_lemmas.py
@@ -9,6 +10,23 @@
 	|-infer_morph.py
 	|-analyze.sh
 	|-add_lemmas_from_corpus.sh
+````
+## 全体的に
+`stem = stem.strip().decode('utf-8').strip(u'\u200c').encode('utf-8')`  
+tokenの前後に存在するZWNJを削除するためだけにこのような処理をしているっぽい
+
+`stem = re.sub(' ','\xe2\x80\x8c',stem)`  
+`stem = re.sub('\#','\xe2\x80\x8c',stem)`
+次のような場合に対応するためと思われる．
+`نمی<U+200C>توا`
+でも，わざわざZWNJでつながっているものをスペースに変換して意味はあるのだろうか？わからないが，これのおかげで，変な文字列が生成されていることだけは間違いない．
+当たり前だが，tokenの中に#が入るケースは存在しなかった．
+
+まずこの方針は色々と気に入らない．  
+* スペースは見にくいので，明示的な記号で形態素区切りを表示したい
+* unicodeで扱わないのが気に食わない．
+
+この２つを修正する．
 
 ## norm_farsi.py
 
@@ -62,14 +80,6 @@ print_lemmas.pyを複数のPOSに対して実行できるようにしたシェ�
 ## analyze.sh
 これがfomaの実行そのもの？ 
 
-## fill_in.py
-
-まだ読んでいるところ
-
-## infer_morph.py
-
-まだ読んでいるところ
-
 ##setup_eval.py  
 
 評価の準備を行う．
@@ -111,8 +121,8 @@ lemmaについて動詞の時，かつ＃マークがある時とそうでない
 
 コードの中でA.txt,B.txt,C.txtを読んでいるので，少なくともこの３つは必要とする．
 
-`if pos == 'v' and '#' in list(lemma):`posが動詞かつ，lemmaの行に#が存在するときのif  
-#はstemの前についている記号．例えば動詞のmy_twnmなら，twnと記述されている．
+`if pos == 'v' and '#' in list(lemma):`posが動詞かつ，lemmaの行に#が存在するときのif 
+\#はstemの前についている記号．例えば動詞のmy_twnmなら，twnと記述されている．
 list(lemma)により，文字が１文字ずつリストに格納されて，#があるかどうか？を簡単に走査できる．  
 ````
 					stem = re.sub(' ','\xe2\x80\x8c',stem)
@@ -169,6 +179,8 @@ LEXICON VPrefix
 のような記述がされていて，このスクリプトの出力とかなり似ていることが確認できる．つまり，このスクリプトの存在意義は
 ### Dep. Treebankからprefixとsuffixを切り出して，lexファイルに追加するため．
 と考えられる．
+### またlexへの追加は，手作業でコピペした．と思われる．
+
 
 ## fill_in.py
 
@@ -209,3 +221,33 @@ hyp_rawが形態素解析結果の行．この行にスペースが含まれて�
 				f.write(next)
 ````
 このnextは予約語？にしてもitemがstrでない場合ってどんな場合？
+
+````
+-------src
+	|
+	|-farsi.foma
+````
+
+
+## farsi_foma
+
+transducerの設定図とも言える部分．
+Handoutはwebで公開されている．[hadout](http://foma.sourceforge.net/lrec2010/lrec2010handout.pdf) 
+基本的な使い方は[turtorial](https://code.google.com/p/foma/wiki/GettingStarted)
+このページが[形態素解析器のチュートリアル](https://code.google.com/p/foma/wiki/MorphologicalAnalysisTutorial) 
+
+foma interfaceというものがあり，ここでいくつかのコマンドを実行する．
+`words` または `print words`で，受理可能な単語を表示（ただし，自己サイクルがある場合は表示しない）
+`foma[1]: view`でグラフを図示してくれる（Xがないと動作しない）
+`down`または`up`でテストモード（？）に移行．Contr+Dでinterfaceに戻る．
+
+
+
+### 基本的には正規表現でエッジを表現できるみたい．  
+いくつか特殊な点があり，  
+* any characterを示す.は?で表現
+* 0が空のイプシロンを表す
+
+
+### ネットワーク間の接続に関して  
+ネットワーク１　.o.　　ネットワーク２ってすれば２つのネットワークの接続ができるようだ．
