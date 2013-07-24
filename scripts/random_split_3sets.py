@@ -32,9 +32,12 @@ def main(args):
 	C_lis = [] # list of string, to write to file as C data set
 	#Loop through data
 	for i in range(0,len(data)):
+            if data[i]=='\n':
+                pass;
+            else:
 		if i < num_A:
 			#Put token in A list
-			A_lis.append(data[i])
+                        A_lis.append(data[i])
 		elif i < (num_A+num_B):
 			#Put token in B list
 			B_lis.append(data[i])
@@ -42,10 +45,10 @@ def main(args):
 			#Put token in C list
 			C_lis.append(data[i])
 	#Sort token lists by POS tag
-	A_lis.sort(key=lambda s: s.split('\t')[2].strip())
+        A_lis.sort(key=lambda s: s.split('\t')[2].strip())
 	B_lis.sort(key=lambda s: s.split('\t')[2].strip())
 	C_lis.sort(key=lambda s: s.split('\t')[2].strip())
-	#Write sets to file
+        #Write sets to file
 	A_file_name = 'A.txt'
 	B_file_name = 'B.txt'
 	C_file_name = 'C.txt'
