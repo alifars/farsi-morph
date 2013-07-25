@@ -1,45 +1,22 @@
-!!!subr.lexc!!!
-
-Multichar_Symbols +Subr
-
-LEXICON Root
-Subr;
-
-LEXICON SubrInf
-+Subr:0 #;
-
-LEXICON Subr
-!Lexical items from corpus
-اگر	SubrInf;
-ولو	SubrInf;
-زیرا	SubrInf;
-انگار	SubrInf;
-چنانچه	SubrInf;
-لیکن	SubrInf;
+چرا	SubrInf;
+گرچه	SubrInf;
+بلکه	SubrInf;
 مگر	SubrInf;
 تا	SubrInf;
-هرچند	SubrInf;
-چه	SubrInf;
-چرا	SubrInf;
-وقت	SubrInf;
-گرچه	SubrInf;
-هر‌چند	SubrInf;
-چو	SubrInf;
-بلکه	SubrInf;
-بنابراین	SubrInf;
 پس	SubrInf;
 یعنی	SubrInf;
 چون	SubrInf;
-هنوز	SubrInf;
+چنانچه	SubrInf;
 وگرنه	SubrInf;
 و	SubrInf;
+اگر	SubrInf;
 که	SubrInf;
 چراکه	SubrInf;
 وقتی	SubrInf;
 هرچه	SubrInf;
-چرا‌که	SubrInf;
-ولی	SubrInf;
+هرچند	SubrInf;
+_	SubrInf;
 اگرچه	SubrInf;
 والا	SubrInf;
-بس‌که	SubrInf;
+زیرا	SubrInf;
 اما	SubrInf;

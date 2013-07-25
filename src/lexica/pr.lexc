@@ -1,123 +1,53 @@
-!!!pr.lexc!!!
-
-Multichar_Symbols +Pr +Sg +Pl +1P +2P +3P
-
-LEXICON Root
-Pr;
-
-LEXICON PrInf
-+Pr:0 #;
-
-LEXICON Pr1sg
-+Pr+1P+Sg:0 #;
-
-LEXICON Pr2sg
-+Pr+2P+Sg:0 #;
-
-LEXICON Pr3sg
-+Pr+3P+Sg:0 #;
-
-LEXICON Pr1pl
-+Pr+1P+Pl:0 #;
-
-LEXICON Pr2pl
-+Pr+2P+Pl:0 #;
-
-LEXICON Pr3pl
-+Pr+3P+Pl:0 #;
-
-LEXICON Pr
-!Subject Pronouns
-من Pr1sg;
-تو Pr2sg;
-او Pr3sg;
-ما Pr1pl;
-شما Pr2pl;
-آنها Pr3pl;
-!Lexical items from corpus
-خود	PrInf;
-من	PrInf;
-همین	PrInf;
-آنها	PrInf;
-تان	PrInf;
-اینان	PrInf;
-شان	PrInf;
-کو	PrInf;
-همانها	PrInf;
-هیچ	PrInf;
-ما	PrInf;
-آن	PrInf;
-این	PrInf;
-شما	PrInf;
-همدیگر	PrInf;
-ام	PrInf;
-ت	PrInf;
-چی	PrInf;
-همانها	PrInf;
-آن‌ها	PrInf;
-آنها	PrInf;
-کدام	PrInf;
-ش	PrInf;
-م	PrInf;
-تو	PrInf;
-خودمان	PrInf;
-ما	PrInf;
-آن	PrInf;
-این	PrInf;
-من	PrInf;
-مان	PrInf;
 چه	PrInf;
+چی	PrInf;
 همین	PrInf;
-آن‌ها	PrInf;
 خویش	PrInf;
-خودش	PrInf;
-آنجا	PrInf;
-آنان	PrInf;
-چنین	PrInf;
-ماها	PrInf;
+انان	PrInf;
+کی	PrInf;
+شان	PrInf;
+انها	PrInf;
 خودشان	PrInf;
-دیگران	PrInf;
+هیچ	PrInf;
+همدیگر	PrInf;
+مان	PrInf;
 چقدر	PrInf;
-خود	PrInf;
+ت	PrInf;
 کس	PrInf;
-#هست	PrInf;
-کرد#کن	PrInf;
 کجا	PrInf;
 اینجانب	PrInf;
 او	PrInf;
-آ‌نها	PrInf;
+#هست	PrInf;
 همان	PrInf;
-همدیگر	PrInf;
-آن	PrInf;
+ما	PrInf;
 یکدیگر	PrInf;
+انجا	PrInf;
 شما	PrInf;
-ش	PrInf;
-ت	PrInf;
-کی	PrInf;
+ان	PrInf;
+خود	PrInf;
+خودش	PrInf;
 این‌ها	PrInf;
 اینها	PrInf;
 که	PrInf;
-آنها	PrInf;
-خودم	PrInf;
-آ‌ها	PrInf;
+کو	PrInf;
 م	PrInf;
-بنده	PrInf;
+خودم	PrInf;
 اش	PrInf;
-ﺧﻮد	PrInf;
-آنچه	PrInf;
-همینان	PrInf;
+خودمان	PrInf;
+این‌جانب	PrInf;
 این	PrInf;
 من	PrInf;
 خودت	PrInf;
-دیگری	PrInf;
 خودتان	PrInf;
+انچنان	PrInf;
 ایشان	PrInf;
-آنچنان	PrInf;
+تان	PrInf;
 همه	PrInf;
+اینان	PrInf;
 تو	PrInf;
 چنان	PrInf;
-وی	PrInf;
+ش	PrInf;
 هم	PrInf;
 خویشتن	PrInf;
-این‌جانب	PrInf;
-بعضی	PrInf;
+ان‌ها	PrInf;
+وی	PrInf;
+چنین	PrInf;

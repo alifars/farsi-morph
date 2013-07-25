@@ -1,72 +1,26 @@
-!!!posnum.lexc!!!
-
-Multichar_Symbols +Posnum
-
-LEXICON Root
-Posnum;
-
-LEXICON PosnumInf
-+Posnum:0 #;
-
-LEXICON Posnum
-!Lexical items from corpus
-12	PosnumInf;
-هجدهم	PosnumInf;
-یک	PosnumInf;
-پنجاه	PosnumInf;
-هفتاد	PosnumInf;
-85	PosnumInf;
-سوم	PosnumInf;
-10	PosnumInf;
-308	PosnumInf;
-84	PosnumInf;
-18	PosnumInf;
-بیست	PosnumInf;
 پنجم	PosnumInf;
 اول	PosnumInf;
-سوم	PosnumInf;
-89	PosnumInf;
-65	PosnumInf;
-90	PosnumInf;
-۱۱	PosnumInf;
+چهاردهم	PosnumInf;
 نخست	PosnumInf;
-هزار	PosnumInf;
-اولیه	PosnumInf;
-نخستین	PosnumInf;
-هشت	PosnumInf;
-44	PosnumInf;
-45	PosnumInf;
+دوازدهم	PosnumInf;
+سوم	PosnumInf;
 28	PosnumInf;
 40	PosnumInf;
 1	PosnumInf;
-دو	PosnumInf;
 هفتم	PosnumInf;
 5	PosnumInf;
-7	PosnumInf;
+اخر	PosnumInf;
 بیستم	PosnumInf;
-پابلند	PosnumInf;
-نوزدهم	PosnumInf;
-ثالث	PosnumInf;
+7	PosnumInf;
 نهم	PosnumInf;
-304	PosnumInf;
-دوازدهم	PosnumInf;
-9	PosnumInf;
-آخر	PosnumInf;
+یک	PosnumInf;
 شانزدهم	PosnumInf;
 ششم	PosnumInf;
-یازدهم	PosnumInf;
 یکم	PosnumInf;
-هیجدهم	PosnumInf;
-پانزدهم	PosnumInf;
-220	PosnumInf;
-۳	PosnumInf;
-سیزدهم	PosnumInf;
-چهار	PosnumInf;
-چهاردهم	PosnumInf;
+نوزدهم	PosnumInf;
 32	PosnumInf;
 هشتم	PosnumInf;
 دهم	PosnumInf;
 دوم	PosnumInf;
 چهارم	PosnumInf;
-سه	PosnumInf;
 ۳۶۰	PosnumInf;

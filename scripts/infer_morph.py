@@ -18,19 +18,21 @@ def main(args):
 		#Strip whitespace off line edges and split on tab
 		lis = line.strip().split('\t')
 		#Strip token edges of whitespace and ZWNJ
-		token = lis[0].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
-		#Substitute ZWNJ for space or #-character internally in token
+                token = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+                #Substitute ZWNJ for space or #-character internally in token
 		token = re.sub(' ','\xe2\x80\x8c',token)
 		token = re.sub('\#','\xe2\x80\x8c',token)
-		#Strip lemmas edges of whitespace and ZWNJ
-		lemma = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+                if '#' in list(token):
+                    print token;
+                #Strip lemmas edges of whitespace and ZWNJ
+		lemma = lis[2].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
 		#Substitute ZWNJ for space internally in lemma
 		lemma = re.sub(' ','\xe2\x80\x8c',lemma)
 		#Skip lemma == token
 		if lemma == token:
 			continue
 		#Strip pos tag edges of whitespace and lowercase it
-		pos = lis[2].strip().lower()
+		pos = lis[3].strip().lower()
 		if check_pos == pos:
 			if pos == 'v' and '#' in list(lemma):
 				for stem in lemma.split('#'):

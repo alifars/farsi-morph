@@ -1,0 +1,86 @@
+!!!prem.lexc!!!
+
+Multichar_Symbols +Prem
+
+LEXICON Root
+Prem;
+
+LEXICON PremInf
++Prem:0 #;
+
+LEXICON Prem
+!Lexical items from corpus
+دین	PremInf;
+لحظه	PremInf;
+همین	PremInf;
+یک	PremInf;
+همان	PremInf;
+ساعتها	PremInf;
+چندین	PremInf;
+چندان	PremInf;
+همین	PremInf;
+کدام	PremInf;
+چندی	PremInf;
+همه	PremInf;
+هزاران	PremInf;
+همان	PremInf;
+هرچه	PremInf;
+تنها	PremInf;
+چه	PremInf;
+کمی	PremInf;
+ده‌‌ها	PremInf;
+فلان	PremInf;
+هر	PremInf;
+چندصد	PremInf;
+گاهی	PremInf;
+میلیاردها	PremInf;
+عجب	PremInf;
+چنین	PremInf;
+اکثر	PremInf;
+پاره	PremInf;
+تک	PremInf;
+هیچ	PremInf;
+برخی	PremInf;
+اندکی	PremInf;
+هزار	PremInf;
+چگونه	PremInf;
+خیلی	PremInf;
+بسیار	PremInf;
+سالیان	PremInf;
+چند	PremInf;
+مقدار	PremInf;
+آن	PremInf;
+هوار	PremInf;
+مقداری	PremInf;
+ان	PremInf;
+مدت‌ها	PremInf;
+کمتر	PremInf;
+سراسر	PremInf;
+دو	PremInf;
+صدها	PremInf;
+دیگر	PremInf;
+بدین	PremInf;
+چندمین	PremInf;
+سال‌ها	PremInf;
+این⁯	PremInf;
+بسی	PremInf;
+کدامین	PremInf;
+عده	PremInf;
+این	PremInf;
+عده‌ای	PremInf;
+بسیاری	PremInf;
+کلیه	PremInf;
+میلیون	PremInf;
+سال	PremInf;
+چقدر	PremInf;
+گروه	PremInf;
+همه	PremInf;
+تعدادی	PremInf;
+تعداد	PremInf;
+چنان	PremInf;
+ده‌ها	PremInf;
+ابن	PremInf;
+ساعت‌ها	PremInf;
+گروهی	PremInf;
+بعضی	PremInf;
+میلیون‌ها	PremInf;
