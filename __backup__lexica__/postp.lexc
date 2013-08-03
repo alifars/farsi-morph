@@ -1,0 +1,25 @@
+!!!postp.lexc!!!
+
+Multichar_Symbols +Postp
+
+LEXICON Root
+Postp;
+
+LEXICON PostpInf
++Postp:0 #;
+
+LEXICON Postp
+!Lexical items from corpus
+درباره	PostpInf;
+را	PostpInf;
+همراه	PostpInf;
+میان	PostpInf;
+کنار	PostpInf;
+و	PostpInf;
+جلوی	PostpInf;
+از	PostpInf;
+حدود	PostpInf;
+در	PostpInf;
+را	PostpInf;
+پیش	PostpInf;
+رو	PostpInf;

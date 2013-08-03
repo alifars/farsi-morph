@@ -1,0 +1,25 @@
+!!!postp.lexc!!!
+
+Multichar_Symbols +Postp
+
+LEXICON Root
+Postp;
+
+LEXICON PostpInf
++Postp:0 #;
+
+LEXICON Postp
+!Lexical items from corpus
+drbare	PostpInf;
+ra	PostpInf;
+emrae	PostpInf;
+myan	PostpInf;
+knar	PostpInf;
+w	PostpInf;
+jlwy	PostpInf;
+az	PostpInf;
+ħdwd	PostpInf;
+dr	PostpInf;
+ra	PostpInf;
+pyš	PostpInf;
+rw	PostpInf;

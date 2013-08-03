@@ -1,0 +1,72 @@
+!!!posnum.lexc!!!
+
+Multichar_Symbols +Posnum
+
+LEXICON Root
+Posnum;
+
+LEXICON PosnumInf
++Posnum:0 #;
+
+LEXICON Posnum
+!Lexical items from corpus
+12	PosnumInf;
+ejdem	PosnumInf;
+yk	PosnumInf;
+pnjae	PosnumInf;
+eftad	PosnumInf;
+85	PosnumInf;
+swm	PosnumInf;
+10	PosnumInf;
+308	PosnumInf;
+84	PosnumInf;
+18	PosnumInf;
+byst	PosnumInf;
+pnjm	PosnumInf;
+awl	PosnumInf;
+swm	PosnumInf;
+89	PosnumInf;
+65	PosnumInf;
+90	PosnumInf;
+11	PosnumInf;
+nxst	PosnumInf;
+ezar	PosnumInf;
+awlye	PosnumInf;
+nxstyn	PosnumInf;
+ešt	PosnumInf;
+44	PosnumInf;
+45	PosnumInf;
+28	PosnumInf;
+40	PosnumInf;
+1	PosnumInf;
+dw	PosnumInf;
+eftm	PosnumInf;
+5	PosnumInf;
+7	PosnumInf;
+bystm	PosnumInf;
+pablnd	PosnumInf;
+nwzdem	PosnumInf;
+çalç	PosnumInf;
+nem	PosnumInf;
+304	PosnumInf;
+dwazdem	PosnumInf;
+9	PosnumInf;
+āxr	PosnumInf;
+šanzdem	PosnumInf;
+ššm	PosnumInf;
+yazdem	PosnumInf;
+ykm	PosnumInf;
+eyjdem	PosnumInf;
+panzdem	PosnumInf;
+220	PosnumInf;
+3	PosnumInf;
+syzdem	PosnumInf;
+čear	PosnumInf;
+čeardem	PosnumInf;
+32	PosnumInf;
+eštm	PosnumInf;
+dem	PosnumInf;
+dwm	PosnumInf;
+čearm	PosnumInf;
+se	PosnumInf;
+360	PosnumInf;

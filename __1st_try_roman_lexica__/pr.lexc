@@ -1,0 +1,123 @@
+!!!pr.lexc!!!
+
+Multichar_Symbols +Pr +Sg +Pl +1P +2P +3P
+
+LEXICON Root
+Pr;
+
+LEXICON PrInf
++Pr:0 #;
+
+LEXICON Pr1sg
++Pr+1P+Sg:0 #;
+
+LEXICON Pr2sg
++Pr+2P+Sg:0 #;
+
+LEXICON Pr3sg
++Pr+3P+Sg:0 #;
+
+LEXICON Pr1pl
++Pr+1P+Pl:0 #;
+
+LEXICON Pr2pl
++Pr+2P+Pl:0 #;
+
+LEXICON Pr3pl
++Pr+3P+Pl:0 #;
+
+LEXICON Pr
+!Subject Pronouns
+mn Pr1sg;
+tw Pr2sg;
+aw Pr3sg;
+ma Pr1pl;
+šma Pr2pl;
+ānea Pr3pl;
+!Lexical items from corpus
+xwd	PrInf;
+mn	PrInf;
+emyn	PrInf;
+ānea	PrInf;
+tan	PrInf;
+aynan	PrInf;
+šan	PrInf;
+kw	PrInf;
+emanea	PrInf;
+eyč	PrInf;
+ma	PrInf;
+ān	PrInf;
+ayn	PrInf;
+šma	PrInf;
+emdygr	PrInf;
+am	PrInf;
+t	PrInf;
+čy	PrInf;
+emanea	PrInf;
+ān_ea	PrInf;
+ānea	PrInf;
+kdam	PrInf;
+š	PrInf;
+m	PrInf;
+tw	PrInf;
+xwdman	PrInf;
+ma	PrInf;
+ān	PrInf;
+ayn	PrInf;
+mn	PrInf;
+man	PrInf;
+če	PrInf;
+emyn	PrInf;
+ān_ea	PrInf;
+xwyš	PrInf;
+xwdš	PrInf;
+ānja	PrInf;
+ānan	PrInf;
+čnyn	PrInf;
+maea	PrInf;
+xwdšan	PrInf;
+dygran	PrInf;
+čŕdr	PrInf;
+xwd	PrInf;
+ks	PrInf;
+#est	PrInf;
+krd#kn	PrInf;
+kja	PrInf;
+aynjanb	PrInf;
+aw	PrInf;
+ā_nea	PrInf;
+eman	PrInf;
+emdygr	PrInf;
+ān	PrInf;
+ykdygr	PrInf;
+šma	PrInf;
+š	PrInf;
+t	PrInf;
+ky	PrInf;
+ayn_ea	PrInf;
+aynea	PrInf;
+ke	PrInf;
+ānea	PrInf;
+xwdm	PrInf;
+ā_ea	PrInf;
+m	PrInf;
+bnde	PrInf;
+aš	PrInf;
+ﺧﻮd	PrInf;
+ānče	PrInf;
+emynan	PrInf;
+ayn	PrInf;
+mn	PrInf;
+xwdt	PrInf;
+dygry	PrInf;
+xwdtan	PrInf;
+ayšan	PrInf;
+ānčnan	PrInf;
+eme	PrInf;
+tw	PrInf;
+čnan	PrInf;
+wy	PrInf;
+em	PrInf;
+xwyštn	PrInf;
+ayn_janb	PrInf;
+b'źy	PrInf;

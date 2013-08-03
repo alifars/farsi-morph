@@ -1,0 +1,45 @@
+!!!subr.lexc!!!
+
+Multichar_Symbols +Subr
+
+LEXICON Root
+Subr;
+
+LEXICON SubrInf
++Subr:0 #;
+
+LEXICON Subr
+!Lexical items from corpus
+agr	SubrInf;
+wlw	SubrInf;
+zyra	SubrInf;
+angar	SubrInf;
+čnanče	SubrInf;
+lykn	SubrInf;
+mgr	SubrInf;
+ta	SubrInf;
+erčnd	SubrInf;
+če	SubrInf;
+čra	SubrInf;
+wŕt	SubrInf;
+grče	SubrInf;
+er_čnd	SubrInf;
+čw	SubrInf;
+blke	SubrInf;
+bnabrayn	SubrInf;
+ps	SubrInf;
+y'ny	SubrInf;
+čwn	SubrInf;
+enwz	SubrInf;
+wgrne	SubrInf;
+w	SubrInf;
+ke	SubrInf;
+črake	SubrInf;
+wŕty	SubrInf;
+erče	SubrInf;
+čra_ke	SubrInf;
+wly	SubrInf;
+agrče	SubrInf;
+wala	SubrInf;
+bs_ke	SubrInf;
+ama	SubrInf;

@@ -1,0 +1,86 @@
+!!!prem.lexc!!!
+
+Multichar_Symbols +Prem
+
+LEXICON Root
+Prem;
+
+LEXICON PremInf
++Prem:0 #;
+
+LEXICON Prem
+!Lexical items from corpus
+dyn	PremInf;
+lħẓe	PremInf;
+emyn	PremInf;
+yk	PremInf;
+eman	PremInf;
+sa'tea	PremInf;
+čndyn	PremInf;
+čndan	PremInf;
+emyn	PremInf;
+kdam	PremInf;
+čndy	PremInf;
+eme	PremInf;
+ezaran	PremInf;
+eman	PremInf;
+erče	PremInf;
+tnea	PremInf;
+če	PremInf;
+kmy	PremInf;
+de__ea	PremInf;
+flan	PremInf;
+er	PremInf;
+čndşd	PremInf;
+gaey	PremInf;
+mylyardea	PremInf;
+'jb	PremInf;
+čnyn	PremInf;
+akçr	PremInf;
+pare	PremInf;
+tk	PremInf;
+eyč	PremInf;
+brxy	PremInf;
+andky	PremInf;
+ezar	PremInf;
+čgwne	PremInf;
+xyly	PremInf;
+bsyar	PremInf;
+salyan	PremInf;
+čnd	PremInf;
+mŕdar	PremInf;
+ān	PremInf;
+ewar	PremInf;
+mŕdary	PremInf;
+an	PremInf;
+mdt_ea	PremInf;
+kmtr	PremInf;
+srasr	PremInf;
+dw	PremInf;
+şdea	PremInf;
+dygr	PremInf;
+bdyn	PremInf;
+čndmyn	PremInf;
+sal_ea	PremInf;
+ayn⁯	PremInf;
+bsy	PremInf;
+kdamyn	PremInf;
+'de	PremInf;
+ayn	PremInf;
+'de_ay	PremInf;
+bsyary	PremInf;
+klye	PremInf;
+mylywn	PremInf;
+sal	PremInf;
+čŕdr	PremInf;
+grwe	PremInf;
+eme	PremInf;
+t'dady	PremInf;
+t'dad	PremInf;
+čnan	PremInf;
+de_ea	PremInf;
+abn	PremInf;
+sa't_ea	PremInf;
+grwey	PremInf;
+b'źy	PremInf;
+mylywn_ea	PremInf;

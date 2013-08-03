@@ -1,0 +1,34 @@
+!!!conj.lexc!!!
+
+Multichar_Symbols +Conj
+
+LEXICON Root
+Conj;
+
+LEXICON ConjInf
++Conj:0 #;
+
+LEXICON Conj
+!Lexical items from corpus
+agrne	ConjInf;
+mntea	ConjInf;
+blke	ConjInf;
+mntey	ConjInf;
+age	ConjInf;
+w	ConjInf;
+by_ānke	ConjInf;
+,	ConjInf;
+ke	ConjInf;
+wlykn	ConjInf;
+aynke	ConjInf;
+emčnyn	ConjInf;
+-	ConjInf;
+agr	ConjInf;
+ama	ConjInf;
+aly	ConjInf;
+ya	ConjInf;
+xwae	ConjInf;
+lkn	ConjInf;
+lykn	ConjInf;
+ta	ConjInf;
+wly	ConjInf;
