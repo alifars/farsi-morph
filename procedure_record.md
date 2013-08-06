@@ -41,4 +41,27 @@ Recall=0.000175013125984
 F-Score=0.000171011164586
 ````
 かなり低い....  
-怪しいので，もう一度，もとの構成で再実験 
+怪しいので，もう一度，もとの構成で再実験
+
+元の構成でもとてつもなく低い精度．．．何か間違っているんだろうか．．．
+
+原因を発見．直接の原因は，.tokenと.lemmaが正しく生成できていなかったこと．これはsetup_eval.pyでindexがずれていたのが原因．
+正しく直した結果は以下のとおり（アラビア文字で評価を行った結果）
+````
+Corpus A
+Precision=0.749272527787
+172777 correct lemmas out of 230593 total analysis hypotheses
+Recall=0.638665868228
+172777 correct lemmas out of 270528 total lemmas
+F-Score=0.689562001992
+````  
+
+以下がローマ字化にして行った結果．若干低いのは，ローマ字化でミスがあったから．
+````
+Corpus A
+Precision=0.745260314999
+167223 correct lemmas out of 224382 total analysis hypotheses
+Recall=0.618352789785
+167223 correct lemmas out of 270433 total lemmas
+F-Score=0.675901094348
+````

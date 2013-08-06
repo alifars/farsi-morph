@@ -18,13 +18,13 @@ def main(args):
 		#Strip whitespace off line edges and split on tab
 		lis = line.strip().split('\t')
 		#Strip token edges of whitespace and ZWNJ
-		token = lis[0].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
-		#Substitute ZWNJ for space or #-character internally in token
+		token = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+                #Substitute ZWNJ for space or #-character internally in token
 		token = re.sub(' ','\xe2\x80\x8c',token)
 		token = re.sub('\#','\xe2\x80\x8c',token)
 		#Strip lemmas edges of whitespace and ZWNJ
-		lemma = lis[1].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
-		#Substitute ZWNJ for space internally in lemma
+		lemma = lis[2].strip().decode('utf-8').strip(u'\u200c').encode('utf-8')
+                #Substitute ZWNJ for space internally in lemma
 		lemma = re.sub(' ','\xe2\x80\x8c',lemma)
 		#Don't use empty lemmas
 		if lemma.isspace() or lemma == '' or lemma.decode('utf-8') == u'\u200c':
